@@ -43,8 +43,7 @@ def init_params(net):
                 init.constant(m.bias, 0)
 
 
-_, term_width = shutil.get_terminal_size()
-
+term_width = 80 (set the term_width to 80 directly)
 term_width = int(term_width)
 
 TOTAL_BAR_LENGTH = 65.
