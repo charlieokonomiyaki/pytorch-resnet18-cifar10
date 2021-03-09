@@ -53,7 +53,7 @@ classes = ('plane', 'car', 'bird', 'cat', 'deer',
            'dog', 'frog', 'horse', 'ship', 'truck')
 
 # Model
-print('==> Building model..')
+print('==> Building model Resnet18')
 # net = VGG('VGG19')
 net = ResNet18()
 # net = PreActResNet18()
