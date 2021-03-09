@@ -43,7 +43,7 @@ def init_params(net):
                 init.constant(m.bias, 0)
 
 
-_, term_width = _, term_width = shutil.get_terminal_size()
+_, term_width = shutil.get_terminal_size()
 
 term_width = int(term_width)
 
